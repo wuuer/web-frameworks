@@ -1,9 +1,6 @@
-language:
-  compiler: gradle
-
 framework:
   website: micronaut.io
-  version: 4.6
+  version: 5.0
 
   build:
     - gradle build --project-cache-dir ~/.gradle
@@ -19,4 +16,8 @@ framework:
   bootstrap:
     - tar -xvf build/distributions/web-0.1.tar
 
-  command: /opt/web/web-0.1/bin/web
+language:
+  compiler: gradle
+  engines:
+    default:
+      command: /opt/web/web-0.1/bin/web

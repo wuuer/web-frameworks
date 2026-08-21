@@ -1,0 +1,7 @@
+framework:
+  github: sunrise-php/http-router
+  version: 3.4
+  files:
+    - .env.dist
+  engines:
+    - road-runner

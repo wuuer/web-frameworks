@@ -9,8 +9,8 @@ defmodule Server.MixProject do
       start_permanent: Mix.env() == :prod,
       releases: [server: [include_executables_for: [:unix]]],
       deps: [
-        {:plug, "~> 1.18.1"},
-        {:bandit, "~> 1.8.0"}
+        {:plug, "~> 1.19.0"},
+        {:bandit, "~> 1.10.0"}
       ]
     ]
   end
